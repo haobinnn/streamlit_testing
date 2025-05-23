@@ -14,12 +14,9 @@ if pangit:
 st.title("Okay ito serious mode, HAPPY BIRTHDAY MISHA")
 st.write("Testing ko ito kasi pupunta ako ng Build AI bukas.")
 
-name = st.text_input("What's your name?")
-if name:
-    st.write(f"Hello, {name}! Alam mo bang birthday ni Misha?")
-else (name == Misha || MISHA || misha):
-    st.write(f"HAPPY BIRTHDAY MISHA!!")
-
-pangit = st.text_input("Pangit ka sabihin mo bakit")
-if pangit:
-    st.write("omsim shongit ka tlga kasi {pangit}")
+name1 = st.text_input("What's your name?")
+if name1:
+    if name1.lower() == 'misha':
+      st.write("HAPPY BIRTHDAY MISHA!!!!")
+    else:
+        st.write("HUH {name1} ALAM MO BANG BIRTHDAY NI MISHA NGAUN")
