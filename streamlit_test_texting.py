@@ -17,7 +17,7 @@ st.write("Testing ko ito kasi pupunta ako ng Build AI bukas.")
 name = st.text_input("What's your name?")
 if name:
     st.write(f"Hello, {name}! Alam mo bang birthday ni Misha?")
-else name == Misha || MISHA || misha:
+else (name == Misha || MISHA || misha):
     st.write(f"HAPPY BIRTHDAY MISHA!!")
 
 pangit = st.text_input("Pangit ka sabihin mo bakit")
