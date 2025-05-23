@@ -14,9 +14,9 @@ if pangit:
 st.title("Okay ito serious mode, HAPPY BIRTHDAY MISHA")
 st.write("Testing ko ito kasi pupunta ako ng Build AI bukas.")
 
-name1 = st.text_input("What's your name?")
+name1 = st.text_input("What's your name again?")
 if name1:
     if name1.lower() == 'misha':
-      st.write("HAPPY BIRTHDAY MISHA!!!!")
+        st.write("🎉 HAPPY BIRTHDAY MISHA!!!! 🎉")
     else:
-        st.write("HUH {name1.upper()} ALAM MO BANG BIRTHDAY NI MISHA NGAUN")
+        st.write(f"HUH {name1.upper()}?! ALAM MO BANG BIRTHDAY NI MISHA NGAUN?! 🎂")
