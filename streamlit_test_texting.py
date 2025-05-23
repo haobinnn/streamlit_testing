@@ -19,4 +19,4 @@ if name1:
     if name1.lower() == 'misha':
       st.write("HAPPY BIRTHDAY MISHA!!!!")
     else:
-        st.write("HUH {name1} ALAM MO BANG BIRTHDAY NI MISHA NGAUN")
+        st.write("HUH {name1.upper()} ALAM MO BANG BIRTHDAY NI MISHA NGAUN")
